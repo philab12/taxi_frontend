@@ -699,7 +699,8 @@ a:hover {
     text-decoration: none;
 }
 
-.footer-main ul.footer-links li a:hover {
+.footer-main ul.footer-links li a:hover,
+.other-links:hover {
     opacity: 1;
 }
 

@@ -319,16 +319,46 @@
 			<div class="col-6">
 				<div class="row">
 					<div class="col">
-						<h4 class="text-white fw-bold title-shadow">Our Products</h4>
-						<ul>
-							<li></li>
-						</ul>
+						<h4 class="text-white fw-bold title-shadow mb-5">Our Products</h4>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Ride</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Become Driver</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Fleet</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Request a ride online</router-link>
+						</div>
 					</div>
 					<div class="col">
-						<h4 class="text-white fw-bold title-shadow">Help and Support</h4>
+						<h4 class="text-white fw-bold title-shadow mb-5">Help and Support</h4>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Help Center</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Contacts</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Cities</router-link>
+						</div>
 					</div>
 					<div class="col">
-						<h4 class="text-white fw-bold title-shadow">About</h4>
+						<h4 class="text-white fw-bold title-shadow mb-5">About</h4>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">About {{ appName }}</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Press</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Careers</router-link>
+						</div>
+						<div class="mt-4 mb-1">
+							<router-link to="/" class="other-links">Blog</router-link>
+						</div>
 					</div>
 				</div>
 			</div>
