@@ -98,7 +98,7 @@
 
 <section class="section feature">
 	<div class="container">
-		<div class="row">
+		<div class="row text-center">
 			<div class="col-4">
 				<div class="p-2">
                     <h3><i class="fa-solid fa-car text-customized"></i></h3>
@@ -280,7 +280,9 @@
 			<div class="col-6">
 				<div class="row">
 					<div class="col">
-						Logo Here
+						<router-link class="navbar-brand mt-3 mb-3" to="/">
+							<img src="@/assets/images/logo.png" alt="logo" style="background: #fff; padding: 20px;">
+						</router-link>
 					</div>
 				</div>
 				<div class="row">
@@ -318,6 +320,9 @@
 				<div class="row">
 					<div class="col">
 						<h4 class="text-white fw-bold title-shadow">Our Products</h4>
+						<ul>
+							<li></li>
+						</ul>
 					</div>
 					<div class="col">
 						<h4 class="text-white fw-bold title-shadow">Help and Support</h4>
@@ -329,54 +334,31 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-12 text-lg-right">
-				<!-- Social Icons -->
-				<ul class="social-icons">
-					<li class="list-inline-item">
-						<a class="text-customized" target="_blank" href="">
-							<i class="text-customized ti-facebook"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="text-customized" target="_blank" href="">
-							<i class="text-customized ti-twitter-alt"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="text-customized" target="_blank" href="#">
-							<i class="text-customized ti-linkedin"></i>
-						</a>
-					</li>
-					<li class="list-inline-item">
-						<a class="text-customized" target="_blank" href="#">
-							<i class="text-customized ti-instagram"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
 			<div class="col-6 text-white other-links">
 				&copy; {{ appName }}. All rights Reserved
 			</div>
 			<div class="col-6 text-lg-right">
-				<!-- Footer Links -->
-				<ul class="footer-links list-inline">
+				<!-- Social Icons -->
+				<ul class="social-icons">
 					<li class="list-inline-item">
-						<router-link class="nav-link" to="/">Ride</router-link>
+						<a target="_blank" href="">
+							<i class="ti-facebook"></i>
+						</a>
 					</li>
 					<li class="list-inline-item">
-						<router-link class="nav-link" to="/">Drive</router-link>
+						<a target="_blank" href="">
+							<i class="ti-twitter-alt"></i>
+						</a>
 					</li>
 					<li class="list-inline-item">
-						<router-link class="nav-link" to="/">Fleet</router-link>
+						<a target="_blank" href="#">
+							<i class="ti-linkedin"></i>
+						</a>
 					</li>
 					<li class="list-inline-item">
-						<router-link class="nav-link" to="/">Cities</router-link>
-					</li>
-					<li class="list-inline-item">
-						<a href="#sign-up" class="nav-link">Sign Up</a>
-					</li>
-					<li class="list-inline-item">
-						<a href="#download" class="nav-link">Download</a>
+						<a target="_blank" href="#">
+							<i class="ti-instagram"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -390,7 +372,7 @@ export default {
   name: "WebsiteView",
   data: function(){
       return {
-          appName: 'Name'
+          appName: 'TramSL'
       };
   },
   components: {
