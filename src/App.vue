@@ -20,6 +20,4 @@ export default {
 }
 </script>
 
-<style>
-@import "./style.css";
-</style>
+<style></style>

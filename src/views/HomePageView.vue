@@ -409,3 +409,7 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+@import "@/style.css";
+</style>
